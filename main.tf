@@ -11,5 +11,5 @@ terraform {
 }
 
 resource "aws_s3_bucket" "s3_tf" {
-  bucket_prefix = muhs-assignment3.2
+  bucket_prefix = "muhs-assignment3-2"
 }
